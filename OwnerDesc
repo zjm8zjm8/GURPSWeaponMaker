@@ -1,0 +1,16 @@
+#This file is for owner descriptors, like Odin's or Edison's
+#
+#Name
+#Value
+#Description
+#Effects
+
+Edison's
+2
+The weapon is coated in bare wires and sparks intermittently.
++2 damage, stuns if attack roll is made by 5 or more(resisted by HT).
+
+John Dart's
+-2
+This weapon once belonged to a cursed detective.
++1 to hit, damage dealt is also received by the attacker.

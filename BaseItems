@@ -1,0 +1,18 @@
+#The formatting for these things should be:
+#
+#Name
+#Value
+#Description
+#Effects
+#
+#Position should be determined by what file it's contained in.
+
+Sword
+0
+This is a sword.
+Damage: sw+1 cut
+
+Dagger
+0
+This is a dagger.
+Damage: sw-1 cut
