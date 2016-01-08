@@ -1,0 +1,16 @@
+# For secondary modifiers, A.K.A position 3
+#
+# Remember, items will be of the format:
+# 0's 1 2 of 3 with 4
+# e.g. Odin's Mighty Hammer of Smiting with Extra Luck
+#
+#Name
+#Value
+#Description
+#Effects
+#
+
+Of Alacrity
+2
+This weapon fills you with alertness. You feel more confident in case of emergencies.
++1 Move while weapon is readied.

@@ -1,0 +1,16 @@
+# For advantage granting modifiers, A.K.A position 4
+#
+# Remember, items will be of the format:
+# 0's 1 2 of 3 with 4
+# e.g. Odin's Mighty Hammer of Smiting with Extra Luck
+#
+#Name
+#Value
+#Description
+#Effects
+#
+
+with Ambidexterity
+15
+This weapon makes you feel far more coordinated.
+Grants the Ambidexterity trait when this weapon is readied.

@@ -1,0 +1,15 @@
+# For modifiers, A.K.A position 1
+# Remember, items will be of the format:
+# 0's 1 2 of 3 with 4
+# e.g. Odin's Mighty Hammer of Smiting with Extra Luck
+#
+#Name
+#Value
+#Description
+#Effects
+#
+
+Mighty
+1
+This weapon inspires you to hit just a little harder.
++1 damage
