@@ -10,7 +10,97 @@ Edison's
 The weapon is coated in bare wires and sparks intermittently.
 +2 damage, stuns if attack roll is made by 5 or more(resisted by HT).
 
+Athena's
+1
+The weapon fills you with a sense that the mind has more control over this world than you think.
++1 Will while the weapon is carried.
+
+Vivian's
+1
+This weapon makes you feel more alive, somehow.
++1 HP, +1 FP while the weapon is carried.
+
+IronHammer's
+2
+This weapon was forged by a master smith.
++1 to hit, +1 to effective skill, -20% weight.
+
+Hephaestus's
+3
+This weapon has been imbued with the power of Fire.
++3 fire damage.
+
+Mercury's
+1
+This weapon makes you feel lighter on your feet.
++.25 Speed while the weapon is carried.
+
+Astora's
+2
+This weapon belonged to a cult of sun-worshippers.
+Weapon acts as a light source when readied.
+
+Orr's
+1
+This weapon belonged to a practiced fighter.
++1 to hit.
+
+Kai's
+4
+This weapon belonged to a particularly good magician.
++2 to hit, +2 to effective skill, +.25 Speed, +1 HP, +2 FP while carried.
+
+Shadow's
+3
+This weapon belonged to a professional assassin.
++3 to stealth while readied.
+
+Ashur's
+-1
+This weapon belonged to an angry god.
+Costs 1 FP to ready this weapon.
+
+Moira's
+-2
+This weapon belonged to one who gave up.
+-1 Will while weapon is carried.
+
+Adolpho's
+-1
+This weapon belonged to a much-hated man.
+-2 to Reaction Rolls while weapon is carried.
+
+Murphy's
+-3
+This weapon belonged to an extremely unlucky man.
+-1 to attack rolls every time a successful roll is made, stacks, reset on failure.
+
+Roger's
+-2
+This weapon belonged to a person much smaller than you.
+-1 attack range.
+
+Urist's
+-1
+This weapon belonged to an idiot who doesn't know how to dodge.
+-1 to Dodge, -3 to Dodge and Retreat while weapon is carried.
+
+Pyrrus's
+-2
+This weapon may cost more to use than it is worth.
+Costs either 3 FP or 1 HP to attack, attacker's choice.
+
+Set's
+-1
+This weapon was used by an evil priest.
+-1 damage when attacking monsters, +1 damage when attacking 'good' people.
+
+Raine's
+-1
+This weapon belonged to a person burdened by their past.
+-.25 Speed while weapon is carried.
+
 John Dart's
 -2
 This weapon once belonged to a cursed detective.
-+1 to hit, damage dealt is also received by the attacker.
++1 to hit, 1/4 damage dealt is also received by the attacker.
