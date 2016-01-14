@@ -15,23 +15,97 @@ Of Alacrity
 This weapon fills you with alertness. You feel more confident in case of emergencies.
 +1 Move while weapon is readied.
 
-Of Crushing
+Of Overkill
+3
+Oh yes!  This weapon rewards those with a brutal spirit.
+When the target has 0 or less HP, damage is tripled.
+
 Of Mastery
+2
+This weapon was forged by a master of the craft.
++2 to effective skill.
+
 Of Victory
-Of Luck
+3
+This weapon is a tool of victory.
+If the next attack with this weapon could end a battle, +10 to effective skill.
+
+Of Loot
+1
+This weapon has a lucky coin embedded in it.
+Enemies slain with this weapon are slightly more likely to yield better rewards.
+
 Of Strength
+2
+This weapon's feel encourages you, making you feel stronger.
++1 ST while readied.
+
 Of Dexterity
+2
+This weapon pulses to guide your movements.
++1 DX while readied.
+
 Of Wisdom
+2
+This weapon's feel soothes you, aiding your concentration.
++1 IQ while readied.
+
 Of Will
+2
+This weapon tingles to interrupt assaults on your mind.
++2 Will while readied.
+
 Of Perception
+2
+This weapon acts as a focus for your senses.
++2 PER while readied.
 
 Of Sorrow
+-2
+This weapon makes you feel forsaken.
+-2 Will while readied.
+
 Of Agony
+-2
+You know the pain this weapon causes you isn't real, but still...
+-3 to any Concentration roll while readied, -1 FP while carried.
+
 Of Misfortune
+-2
+This weapon makes you feel as though you're missing out on something...
+Enemies are less likely to drop loot on death.
+
 Of Failure
+-2
+This weapon makes you feel inept.
+-2 to effective skill while readied.
+
 Of Folly
+-2
+This weapon makes you more prone to accept bad ideas.
+-1 IQ while readied.
+
 Of Weakness
+-2
+This weapon makes you feel pathetic.
+-1 ST while readied.
+
 Of Blindness
+-2
+This weapon glints in your eyes, distracting you.
+-2 PER while readied.
+
 Of Clumsiness
+-2
+This weapon is poorly balanced.
+-1 DX while readied.
+
 Of Fatigue
+-1
+This weapon is tiring to lug around.
+-1 FP while carried.
+
 Of Ague
+-4
+This weapon reminds you of pestilence when touched.
+-2 FP, -2 HP while carried, -1 DX, -1 effective skill while readied.

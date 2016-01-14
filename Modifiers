@@ -15,24 +15,106 @@ This weapon inspires you to hit just a little harder.
 +1 damage
 
 Great
-Swift
-Verdant
-Fortunate
-Strong
-Brilliant
-Light
-Sturdy
-Lucky
-Damaging
+2
+This weapon is of exceptional quality.
++2 damage
 
-Crying
+Swift
+1
+This weapon flows with the wind, helping you move just a bit faster.
++.25 Basic Speed while readied.
+
+Verdant
+1
+This weapon is a beautiful shade of green.  It reminds you of happier days...
++1 HP, +1 FP while carried.
+
+Fortunate
+3
+This weapon seems lucky to you.
++1 to your next attack roll whenever you fail a roll, cumulative with multiple failures.
+
+Hardy
+2
+This weapon is battle-scarred but strong, and seems to lend that strength to you as well.
++1 DR while readied.
+
+Brilliant
+2
+This weapon shines in the dark, and in your mind.
++1 Will while readied, acts as light source (Candle Flame).
+
+Light
+1
+This weapon is remarkably light.
+-50% weapon weight.
+
+Sturdy
+1
+Good luck trying to break this weapon.
+-3 to any attempt to break this weapon.
+
+Lucky
+4
+This weapon shines like a thousand lucky coins.
+Once per game session, this weapon allows you to re-roll any attack or parry.
+
+Damaging
+2
+This weapon cuts through armor a little better than normal.
+Ignore 1 DR for purposes of damage calculation when this weapon is being used.
+
+Heavy
+-1
+This weapon is obnoxiously heavy.
++50% weapon weight.
+
 Sad
+-2
+This weapon makes you want to give up halfway through attacks.
+-2 damage.
+
 Flimsy
+-1
+Where was this piece of garbage made?
++3 to any attempt to break this weapon.
+
 Weak
+-1
+This weapon isn't very powerful.
+-1 to effective skill.
+
 Unfortunate
+-3
+This weapon must've gotten its previous owner killed.
+-1 to your next attack roll whenever you succeed a roll, cumulative with multiple successes.
+
 Ill-fated
+-4
+This weapon belonged to a soldier who insulted a god.
+Once per game session, one attack or parry will automatically fail.
+
 Painful
+-2
+The weapon's grip has small thorns in it.
+Lose 1 HP on a successful attack with this weapon.
+
 Baleful
+-1
+This weapon is seen as a mark of shame in most places.
+-1 to reaction rolls while carried.
+
 Shoddy
+-2
+This weapon seems like it'll fall apart.
+If a parry roll is failed, roll to see if the weapon breaks.
+
 Blunt
+-1
+This weapon doesn't really hold an edge well.
+This weapon can only do crushing damage.  All other types of damage are converted to crushing.
+
 Addling
+-2
+This weapon feels strange in your hands.
+-1 IQ while weapon is readied.
