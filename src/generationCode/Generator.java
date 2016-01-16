@@ -3,6 +3,7 @@ package generationCode;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 // Basically a wrapper for all of the rest of the code.  Generates items.
@@ -14,6 +15,7 @@ public class Generator {
 	public static ArrayList<Descriptor> second = new ArrayList<Descriptor>();
 	public static ArrayList<Descriptor> lucky = new ArrayList<Descriptor>();
 	public static ArrayList<Descriptor> adv = new ArrayList<Descriptor>();
+	public static Random r = new Random(System.currentTimeMillis());
 	
 	public static void main(String[] args) throws FileNotFoundException
 	{
@@ -23,19 +25,44 @@ public class Generator {
 		second = readList("./Secondaries", 3);
 		lucky = readList("./Lucky", 4);
 		adv = readList("./Advantages", -1);
-		System.out.println(base.get(0).getName());
-		int[] a = Calculations.doRandomDieRolls(100, 10, true);
-		int total = 0;
-		for (int i = 0; i < 20; i++)
-		{
-			for (int j = 0; j < 5; j++)
+		int score = Calculations.getItemScore();
+		int value = Calculations.translateScoreIntoValue(score);
+		Item result = generateItem(value);
+		System.out.println(result.toString());
+	}
+	
+	public static Item generateItem(int value)
+	{
+		Item done = new Item();
+		//Step 1: Get weapon type.
+		done.changeBase(pickFromList(base));
+		//Step 2: Start picking random stuff until we get a match!
+		int tries = 0;
+		while(done.getValue() != value && tries < 1000){
+			tries++;
+			int choice = r.nextInt(4);
+			switch(choice)
 			{
-				System.out.print(a[i*5+j]+" ");
-				total += a[i*5+j];
+			case 0:
+				done.changeOwner(pickFromList(owner));
+				break;
+			case 1:
+				done.changeModifier(pickFromList(mod));
+				break;
+			case 3:
+				done.changeSecondary(pickFromList(second));
+			default:
+				continue;
 			}
-			System.out.println();
 		}
-		System.out.println(total);
+		System.out.println("tries: " + tries);
+		return done;
+	}
+	
+	public static <T> T pickFromList(ArrayList<T> list)
+	{
+		int where = r.nextInt(list.size());
+		return list.get(where);
 	}
 	
 	/***
