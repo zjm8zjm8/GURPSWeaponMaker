@@ -1,4 +1,4 @@
-# For advantage granting modifiers, A.K.A position 4
+# For advantage granting modifiers, going wherever.
 #
 # Remember, items will be of the format:
 # 0's 1 2 of 3 with 4
@@ -6,11 +6,13 @@
 #
 #Name
 #Value
+#Position
 #Description
 #Effects
 #
 
 with Ambidexterity
 15
+4
 This weapon makes you feel far more coordinated.
 Grants the Ambidexterity trait when this weapon is readied.

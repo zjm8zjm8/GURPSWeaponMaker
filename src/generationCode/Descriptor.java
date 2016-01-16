@@ -15,7 +15,14 @@ public class Descriptor {
 		description = d;
 		effect = e;
 	}
-	
+	public Descriptor()
+	{
+		position = 0;
+		value = 0;
+		name = "";
+		description = "";
+		effect = "";
+	}
 	public int getPosition()
 	{
 		return position;
