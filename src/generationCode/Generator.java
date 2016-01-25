@@ -56,6 +56,27 @@ public class Generator {
 			}
 		}
 		System.out.println("tries: " + tries);
+		if (tries % 30 == 0)
+			done.changeLucky(pickFromList(lucky));
+		if (tries % 200 == 0)
+		{
+			Descriptor advantage = pickFromList(adv);
+			switch(advantage.getPosition())
+			{
+			case 0:
+				done.changeOwner(advantage);
+				break;
+			case 1:
+				done.changeModifier(advantage);
+				break;
+			case 3:
+				done.changeSecondary(advantage);
+				break;
+			case 4:
+				done.changeLucky(advantage);
+				break;
+			}
+		}
 		return done;
 	}
 	
