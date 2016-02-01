@@ -56,9 +56,9 @@ public class Generator {
 			}
 		}
 		System.out.println("tries: " + tries);
-		if (tries % 30 == 0)
+		if (r.nextInt(30) == 0)
 			done.changeLucky(pickFromList(lucky));
-		if (tries % 200 == 0)
+		if (r.nextInt(150) == 0)
 		{
 			Descriptor advantage = pickFromList(adv);
 			switch(advantage.getPosition())

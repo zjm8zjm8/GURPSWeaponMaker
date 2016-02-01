@@ -13,7 +13,32 @@ Sword
 This is a sword.
 Damage: sw+1 cut
 
-Dagger
+Knife
 0
-This is a dagger.
-Damage: sw-1 cut
+This is a large knife.
+Damage: sw-2 cut
+
+Axe
+0
+This is an axe.
+Damage: sw+2 cut
+
+Mace
+0
+This is a mace.
+Damage: sw+3 crush
+
+Thrusting Broadsword
+0
+This is a broadsword designed for thrusting.
+Damage: thr+2 imp
+
+Lance
+0
+This a lance.  Unfortunately, it can only hit enemies 4 hexes away.
+Damage: thr+3 imp
+
+Whip
+0
+It's a whip!  Choose your range, up to 7 hexes, but it takes a turn to switch ranges.
+Damage: sw-2 (.5) cr
